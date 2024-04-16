@@ -1,0 +1,43 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background:black;
+    
+}
+
+body > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    width: 100%;
+}
+
+.img-ctn{
+    width: 600px;
+    height: 600px;
+    margin-top: 1px;
+    margin-right:200px;
+}
+
+.text{
+    color: white;
+    font-size: 23px;
+    width: 50%;
+}
+.text h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#tribute{
+    color: grey;
+}
+
+#para{
+    color: white;
+}
+
+#year{
+    color: grey;
+}
